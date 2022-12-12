@@ -2,7 +2,7 @@ select * from COVID19..CovidDeaths
 order by 3,4
 
 
--- Select data that we are going to be using
+-- Selecting data that we are going to be using
 
 select location, date, total_cases, new_cases, total_deaths, population
 from COVID19..CovidDeaths
